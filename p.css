@@ -1,0 +1,526 @@
+
+
+
+
+
+
+
+
+
+.footer {
+    position: relative;
+    padding: 30px 0 0 0;
+    background : rgb(156, 10, 10);
+    color: white;
+}
+
+.footer .footer-widget {
+    position: relative;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.footer .footer-widget h2 {
+    font-size: 25px;
+    white-space: nowrap;
+    margin-bottom: 20px;
+}
+
+.footer .footer-widget ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer .footer-widget ul li {
+    margin-bottom: 12px;
+}
+
+.footer .footer-widget ul li:last-child {
+    margin-bottom: 0;
+}
+
+.footer .footer-widget ul li a {
+    color: #353535;
+    white-space: nowrap;
+    display: block;
+    line-height: 23px;
+    transition: all .3s;
+}
+
+.footer .footer-widget ul li a::before {
+    content: '\f105';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    padding-right: 5px;
+}
+
+.footer .footer-widget ul li a:hover {
+    color: white;
+}
+
+.footer .footer-widget ul li a:hover::before {
+    content: '\f101';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+}
+
+.footer .contact-info p {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.footer .contact-info p i {
+    margin-right: 5px;
+}
+
+.footer .social {
+    position: relative;
+    width: 100%;
+}
+
+.footer .social a {
+    display: inline-block;
+    margin: 10px 5px 0 0;
+    width: 40px;
+    height: 40px;
+    padding: 6px 0;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    border: 3px solid white;
+    border-radius: 4px;
+    transition: all .5s;
+}
+
+.footer .social a:hover {
+    color:deepskyblue;
+    border-color:  white;
+    padding-top: 10px;
+}
+
+
+.footer .payment {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-top: 1px solid rgba(0,0,0,.1);
+}
+
+@media (min-width: 992px) {
+    .footer .payment {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+}
+
+.footer .payment-method,
+.footer .payment-security {
+    overflow: hidden;
+}
+
+.footer .payment-method {
+    text-align: left;
+}
+
+.footer .payment-security {
+    text-align: right;
+}
+
+@media (max-width: 768.98px) {
+    .footer .payment-method {
+        margin-bottom: 15px;
+    }
+
+    .footer .payment-method,
+    .footer .payment-security {
+        text-align: center;
+    }
+}
+
+.footer .payment-method h2,
+.footer .payment-security h2 {
+    display: inline-block;
+    margin: 0 10px 0 0;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.footer .payment-method img,
+.footer .payment-security img {
+    height: 25px;
+}
+
+
+
+.full-page
+{
+    width: 100%;
+    height: 800vh;
+    background: linear-gradient(to bottom, rgb(156, 10, 10), #000000 800px);
+    position: absolute;
+    
+}
+.headernav
+{
+    position: fixed;
+    z-index: 1;
+    background: linear-gradient(to bottom, rgb(156, 10, 10), #0c111b 300px); ;
+    width: 100%;
+}
+.navbar-brand
+{
+    font-size: 30px !important;
+    color: white !important;
+    font-family: 'Dancing Script' , cursive !important;
+    padding-top: 0px !important;
+    padding-left: 50px !important;
+    padding-right:  0px !important;
+}
+.nav-link
+{
+    font-size: 18px !important;
+    color: white !important;
+    padding-left: 90px !important;
+
+}
+.sub-page
+{
+    width: 1247px;
+    height: 400px;
+    position: absolute;
+    background: darkred;
+    background-size: cover;
+    background-position: center;
+    left: 60px;
+    top: 110px;
+    outline: none;
+
+}
+#carouselExampleCaptions
+{
+    width: 1247px !important;
+    height: 400px !important;
+
+}
+.latest
+{
+    top: 490px;
+    left: 60px;
+    position: absolute;
+    color: white;
+}
+.row
+{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.col-1
+{
+    flex-basis: 20%;
+    min-width: 250px;
+}
+.col-1 img:hover
+{
+    padding-bottom: 5px;
+
+}
+.shows
+{
+    top: 1200px;
+    left: 60px;
+    position: absolute;
+    color: white;
+}
+
+.showws
+{
+
+    top: 2250px;
+    left: 60px;
+    position: absolute;
+    color: white;
+}
+
+
+.sh
+{
+
+    top: 2800px;
+    left: 80px;
+    position: absolute;
+    color: white;
+}
+.shh
+{
+
+    top: 3300px;
+    left: 80px;
+    position: absolute;
+    color: white;
+}
+
+
+.full-page-sports
+{
+    width: 100%;
+    height: 110vh;
+    background:  linear-gradient(to bottom, #141b29, #0c111b 300px);;
+    position: absolute;
+    overflow: hidden;
+}
+
+
+
+
+#hot-deal.section {
+    padding: 60px 0px;
+    margin: 30px 0px;
+    background-color: black;
+
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hot-deal  {
+    padding-top: 10px;
+    padding-left: 200px;
+    text-align: center;
+    color: rgb(156, 10, 10);
+    font-weight: bolder;
+}
+.hot-deal h{
+    font-weight: bolder;
+    font-size: 32px;
+}
+
+.hot-deal .hot-deal-countdown {
+    margin-bottom: 30px;
+}
+
+.hot-deal .hot-deal-countdown>li {
+    position: relative;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background: rgb(156, 10, 10);
+    text-align: center;
+    border-radius: 30%;
+    margin: 0px 30px;
+}
+
+.hot-deal .hot-deal-countdown>li>div {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.hot-deal .hot-deal-countdown>li>div h3 {
+    color: #FFF;
+    margin-bottom: 0px;
+}
+
+.hot-deal .hot-deal-countdown>li>div span {
+    display: block;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #FFF;
+}
+
+.hot-deal p {
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: bolder;
+}
+.hot-deal-countdown h2{
+    font-weight: bolder;
+    font-size: 32px;
+}
+
+.hot-deal .cta-btn {
+    margin-top: 15px;
+}
+
+
+.primary-btn {
+    display: inline-block;
+    padding: 12px 30px;
+
+    border-radius: 40px;
+    color: #FFF;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    -webkit-transition: 0.2s all;
+    transition: 0.2s all;
+}
+
+.primary-btn:hover, .primary-btn:focus {
+    opacity: 0.9;
+    color: #FFF;
+}
+
+
+
+
+nav
+{
+    flex: 1;
+    text-align: right;
+}
+nav ul
+{
+    display: inline-block;
+    list-style: none;
+}
+nav ul li
+{
+    display: inline-block;
+    margin-right: 70px;
+}
+nav ul li a
+{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+}
+nav ul li button
+{
+    font-size: 20px;
+    color: white;
+    outline: none;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+nav ul li button:hover
+{
+    color: white;
+}
+nav ul li a:hover
+{
+    color: white;
+}
+a
+{
+    text-decoration: none;
+    color: palevioletred;
+    font-size: 28px;
+}
+#login-form
+{
+    display: none;
+}
+.form-box
+{
+    width:380px;
+    height:480px;
+    position:relative;
+    margin:2% auto;
+    background:rgba(0,0,0,0.3);
+    padding:10px;
+    overflow: hidden;
+}
+.button-box
+{
+    width:220px;
+    margin:35px auto;
+    position:relative;
+    box-shadow: 0 0 20px 9px #ff61241f;
+    border-radius: 30px;
+}
+.toggle-btn
+{
+    padding:10px 30px;
+    cursor:pointer;
+    background:transparent;
+    border:0;
+    outline: none;
+    position: relative;
+}
+#btn
+{
+    top: 0;
+    left:0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: white;
+    border-radius: 30px;
+    transition: .5s;
+}
+.input-group-login
+{
+    top: 150px;
+    position:absolute;
+    width:280px;
+    transition:.5s;
+}
+.input-group-register
+{
+    top: 120px;
+    position:absolute;
+    width:280px;
+    transition:.5s;
+}
+.input-field
+{
+    width: 100%;
+    padding:10px 0;
+    margin:5px 0;
+    border-left:0;
+    border-top:0;
+    border-right:0;
+    border-bottom: 1px solid #999;
+    outline:none;
+    background: transparent;
+}
+.submit-btn
+{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: white;
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+.check-box
+{
+    margin: 30px 10px 34px 0;
+}
+spann
+{
+    color:#777;
+    font-size:12px;
+    bottom:68px;
+    position:absolute;
+}
+
+#login
+{
+    left:50px;
+}
+#login input
+{
+    color:white;
+    font-size:15px;
+}
+#register
+{
+    left:450px;
+}
+#register input
+{
+    color:white;
+    font-size: 15;
+}
